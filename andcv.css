@@ -124,7 +124,13 @@ font-family:Noto Sans, sans-serif;
 padding: 5px;
 font-family:Noto Sans, sans-serif;
 }
+.Col{
+    color:black ;
+}
 @media only screen and (max-width: 1000px) {
+    .Col{
+        color:coral ;
+    }
     .me{
         grid-template-rows: 1fr 1fr; 
         width: 100%;    
